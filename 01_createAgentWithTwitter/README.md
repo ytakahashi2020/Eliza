@@ -1,14 +1,16 @@
 ### Preparation
 
-- create test twitter account  
-  1 username  
-  2 password  
-  3 email registerd
+#### 1 create test twitter account
 
-- get openAI api key  
-  (other AI api key is ok (For example OpenRouter))
+1 username  
+ 2 password  
+ 3 email registerd
 
-- node version is 23
+#### 2 get openAI api key
+
+(other AI api key is ok (For example OpenRouter))
+
+#### 3 node version is 23
 
 ### Step1 git clone
 
