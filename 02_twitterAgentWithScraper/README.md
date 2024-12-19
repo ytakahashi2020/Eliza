@@ -1,7 +1,5 @@
 ### Preparation
 
-## 1 Collect Twitter Information
-
 #### 1 create test twitter account
 
 1 username  
@@ -13,6 +11,12 @@
 (other AI api key is ok (For example OpenRouter))
 
 #### 3 node version is 23
+
+#### 4 cursor (recommended)
+
+-> easy to transform the format
+
+## 1 Collect Twitter Information
 
 ### Step1 git clone twitter-scraper-finetune
 
@@ -56,9 +60,32 @@ npm run twitter -- metaplex
 
 ### Step4 set character
 
-1 clients  
-2 modelProvider
+change  
+1 name  
+2 clients  
+3 modelProvider
 
-### Step5 Start the agent
+delete  
+1 bio  
+2 lore  
+3 knowledge  
+4 messageExamples only one message  
+5 topics  
+6 style -> all  
+7 adjectives
 
-`pnpm start --character="characters/trump.character.json"`
+### Step5 set postExamples
+
+1 file path  
+pipeline -> twittername -> processed -> finetuning.jsonl
+
+2 format the file  
+Ctrl + A -> Ctrl + K -> instruction  
+ex)  
+`Extract the text field values from each JSON object, wrap them in double quotes, and separate them with commas.`
+
+3 paste these to postExamples
+
+### Step6 Start the agent
+
+`pnpm start --character="characters/metaplex.character.json"`
