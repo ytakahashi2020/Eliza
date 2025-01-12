@@ -38,6 +38,10 @@ node version is 23
 
 ## 1 set the environments
 
+### 0 git clone
+
+`git clone https://github.com/ai16z/eliza.git`
+
 ### 1 Cache
 
 #### 1 CACHE_STORE
@@ -81,11 +85,7 @@ you never share this information to others
 
 ## 2 build eliza
 
-### 1 git clone
-
-`git clone https://github.com/ai16z/eliza.git`
-
-### 2 delete @elizaos/plugin-aptos(As of January 12, 2025)
+### 1 delete @elizaos/plugin-aptos(As of January 12, 2025)
 
 delete @elizaos/plugin-aptos because error happens
 
@@ -100,27 +100,27 @@ delete @elizaos/plugin-aptos because error happens
 `import { aptosPlugin } from "@elizaos/plugin-aptos" `
 `getSecret(character, "APTOS_PRIVATE_KEY") ? aptosPlugin : null,`
 
-### 3 install
+### 2 install
 
 ` cd eliza`
 `pnpm install --no-frozen-lockfile`
 
-### 4 build
+### 3 build
 
 `pnpm build`
 
-### 3 interact with the character
+## 3 interact with the character
 
-#### 1 create a simple character
+### 1 create a simple character
 
-#### 2 initialize the character
+### 2 initialize the character
 
 `pnpm start --character="characters/yuki.character.json"`
 
-#### 3 start the client
+### 3 start the client
 
 `pnpm start:client`
 
-#### 4 push the comment
+### 4 push the comment
 
 `I want swap 0.001 sol into Jupiter(JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN)`
