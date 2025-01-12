@@ -1,5 +1,3 @@
-![](./images/2.png)
-
 ## 0 Preparation
 
 ### 1 birdeye api key (more than Starter plan)
@@ -35,6 +33,8 @@ I strongly recommend you prepare a sol account that has only few sol
 node version is 23
 
 #
+
+![](./images/2.png)
 
 ## 1 set the environments
 
