@@ -1,4 +1,4 @@
-## 0 Preparation
+# 0 Preparation
 
 ### 1 birdeye api key (Starter plan)
 
@@ -36,7 +36,7 @@ node version is 23
 
 ![](./images/2.png)
 
-## 1 set the environments
+# 1 set the environments
 
 ### 0 git clone
 
@@ -83,7 +83,7 @@ you never share this information to others
 
 `OPENAI_API_KEY=`
 
-## 2 build eliza
+# 2 build eliza
 
 ### 1 delete @elizaos/plugin-aptos(As of January 12, 2025)
 
@@ -109,7 +109,7 @@ delete @elizaos/plugin-aptos because error happens
 
 `pnpm build`
 
-## 3 interact with the character
+# 3 interact with the character
 
 ### 1 create a simple character
 
