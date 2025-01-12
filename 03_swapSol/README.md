@@ -1,6 +1,6 @@
 ## 0 Preparation
 
-### 1 birdeye api key (more than Starter plan)
+### 1 birdeye api key (Starter plan)
 
 if we are in free plan , this error happen(As of January 12, 2025)
 
