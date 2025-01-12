@@ -97,7 +97,7 @@ delete @elizaos/plugin-aptos because error happens
 
 ### 3 index.ts
 
-`import { aptosPlugin } from "@elizaos/plugin-aptos" `
+`import { aptosPlugin } from "@elizaos/plugin-aptos" `  
 `getSecret(character, "APTOS_PRIVATE_KEY") ? aptosPlugin : null,`
 
 ## 2 install
