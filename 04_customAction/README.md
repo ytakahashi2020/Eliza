@@ -14,13 +14,17 @@
 
 in this lesson, I use this repository
 
+### 2 install
+
+`pnpm install --no-frozen-lockfile`
+
 `https://github.com/ytakahashi2020/eliza_temp`
 
-### 2 set .env information
+### 3 set .env information
 
 `OPENAI_API_KEY`
 
-### 3 create a simple character
+### 4 create a simple character
 
 # 2 create the simple action
 
@@ -116,19 +120,15 @@ action: "CHEER_UP"
 
 # 4 start the agent
 
-### 1 install
-
-`pnpm install --no-frozen-lockfile`
-
-### 2 build
+### 1 build
 
 `pnpm build`
 
-### 3 Start the agent
+### 2 Start the agent
 
 `pnpm start --character="characters/yuki.character.json"`
 
-### 4 start client
+### 3 start client
 
 `pnpm start:client`
 
