@@ -12,6 +12,8 @@ Error fetching portfolio: Error: HTTP error! status: 401, message: {"success":fa
 
 Even if you switch to the Starter Plan, there may still be other issues that arise.
 
+Please proceed with payment at your own responsibility when using the service.
+
 ### 2 get openAI api key
 
 ### 3 node version is 23
